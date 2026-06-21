@@ -1,0 +1,10 @@
+# Direct dependencies (version floors known to support the features used:
+# arch skew-t + EGARCH + fix(), numba njit cache, statsmodels Ljung-Box).
+# For an exact reproduction lock, run:  pip freeze > requirements-lock.txt
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+arch>=7.0
+statsmodels>=0.14
+numba>=0.59
+yfinance>=0.2
